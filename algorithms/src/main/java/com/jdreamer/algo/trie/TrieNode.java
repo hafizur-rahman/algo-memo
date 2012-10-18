@@ -8,7 +8,7 @@ public class TrieNode<T> {
 	private T nodeValue;
 	private boolean terminal;
 	private Map<Character, TrieNode<T>> children = new HashMap<Character, TrieNode<T>>();
-	
+
 	public Character getNodeKey() {
 		return nodeKey;
 	}
@@ -24,7 +24,7 @@ public class TrieNode<T> {
 	public void setNodeValue(T nodeValue) {
 		this.nodeValue = nodeValue;
 	}
-	
+
 	public boolean isTerminal() {
 		return terminal;
 	}
