@@ -1,0 +1,8 @@
+<ul>
+  <li class="{% if page.overview %}current{% endif %}">
+    <a href="{{ site.url }}/">Overview</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="{{ site.url }}/topics/">Topics</span></a>
+  </li>
+</ul>
