@@ -1,7 +1,9 @@
 ---
 layout: docs
 title: Dynamic Programming
-permalink: /dynamic-programming/
+prev_section: configuration
+next_section: posts
+permalink: /docs/dynamic/
 ---
 
 Dynamic programming is a very powerful algorithmic paradigm in which a problem is solved by identifying a 

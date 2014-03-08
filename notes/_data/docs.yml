@@ -1,0 +1,30 @@
+- title: Overview
+  docs:
+  - topics
+
+- title: Data Structures
+  docs:
+  - unionfind
+  - stack
+  - queue
+
+- title: Sorting
+  docs:
+  - insertionsort
+  - selectionsort
+  - shufflesort
+  - quicksort
+
+- title: Graphs
+
+- title: Divide & Conquer Algorithms
+
+- title: Greedy Algorithms
+
+- title: Dynamic Programming
+  docs:
+  - dynamic
+
+- title: Linear Programming
+
+- title: Probabilistic Data Structures
