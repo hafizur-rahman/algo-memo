@@ -16,6 +16,8 @@
   - quicksort
 
 - title: Graphs
+  docs:
+  - topologicalsort
 
 - title: Divide & Conquer Algorithms
 
