@@ -15,6 +15,7 @@
   - shufflesort
   - mergesort
   - quicksort
+  - heapsort
 
 - title: Graphs
   docs:
