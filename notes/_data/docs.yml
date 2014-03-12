@@ -13,6 +13,7 @@
   - insertionsort
   - selectionsort
   - shufflesort
+  - mergesort
   - quicksort
 
 - title: Graphs
