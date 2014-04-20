@@ -29,6 +29,19 @@
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/stdlib.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>apache-giraph</groupId>
+			<artifactId>giraph-core</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/giraph-1.0.0-for-hadoop-1.2.1-jar-with-dependencies.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-core</artifactId>
+			<version>1.2.1</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>

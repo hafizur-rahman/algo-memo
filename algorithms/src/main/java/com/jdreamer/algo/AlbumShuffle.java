@@ -11,7 +11,6 @@ import java.util.Random;
 public class AlbumShuffle {
 
 	private List<Song> shuffleByAlbum(List<Song> songs) {
-		List<Song> shuffled = new ArrayList<Song>();
 		final Map<String, Double> albums = new HashMap<String, Double>();
 
 		Random r = new Random(System.currentTimeMillis());
@@ -41,9 +40,9 @@ public class AlbumShuffle {
 		songs.add(new Song("A1", "S1", "T1", 1));
 		songs.add(new Song("A1", "S1", "T2", 2));
 		songs.add(new Song("A1", "S2", "T3", 3));
-		songs.add(new Song("A2", "S1", "T3", 4));
-		songs.add(new Song("A3", "S2", "T4", 5));
-		songs.add(new Song("A3", "S1", "T5", 6));
+		songs.add(new Song("A2", "S1", "T4", 4));
+		songs.add(new Song("A3", "S2", "T5", 5));
+		songs.add(new Song("A3", "S1", "T6", 6));
 
 		List<Song> shuffled = new AlbumShuffle().shuffleByAlbum(songs);
 		for (Song s : shuffled) {

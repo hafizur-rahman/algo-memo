@@ -56,6 +56,7 @@ We achieve a complete sort by partitioning, then recursively applying the method
 			while (less(a[++i], v)) if (i == hi) break;
 			while (less(v, a[--j])) if (j == lo) break;
 			if (i >= j) break;
+			
 			exch(a, i, j);
 		}
 	
