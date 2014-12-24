@@ -1,3 +1,5 @@
+import edu.princeton.cs.introcs.In;
+
 public class SlashMaze {
 	private static final int[] DX = { -1, 1, 0, 0 };
 	private static final int[] DY = { 0, 0, -1, 1 };

@@ -1,3 +1,7 @@
+import edu.princeton.cs.algs4.Digraph;
+import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.introcs.In;
+
 import java.util.Arrays;
 
 public class BiColoring {

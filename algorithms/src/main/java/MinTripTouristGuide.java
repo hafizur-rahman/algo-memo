@@ -1,3 +1,7 @@
+import edu.princeton.cs.algs4.DirectedEdge;
+import edu.princeton.cs.algs4.UF;
+import edu.princeton.cs.introcs.In;
+
 import java.util.Arrays;
 import java.util.Comparator;
 

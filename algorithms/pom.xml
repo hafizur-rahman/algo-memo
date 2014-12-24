@@ -20,14 +20,14 @@
 			<artifactId>algs4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/algs4.jar</systemPath>
+			<systemPath>${project.basedir}/lib/algs4-package.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>edu.princeton</groupId>
 			<artifactId>std</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/stdlib.jar</systemPath>
+			<systemPath>${project.basedir}/lib/stdlib-package.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>apache-giraph</groupId>
