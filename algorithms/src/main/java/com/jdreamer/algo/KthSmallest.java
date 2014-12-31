@@ -4,6 +4,7 @@ import edu.princeton.cs.introcs.StdRandom;
 
 /**
  * http://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+ * http://www.cc.gatech.edu/~ninamf/Algos11/lectures/lect0209.pdf
  */
 public class KthSmallest {
 
