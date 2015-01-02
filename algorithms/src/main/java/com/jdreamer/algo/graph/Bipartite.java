@@ -1,4 +1,6 @@
-package com.jdreamer.algo;
+package com.jdreamer.algo.graph;
+
+import com.jdreamer.algo.graph.Graph;
 
 public class Bipartite {
 	private boolean[] marked;

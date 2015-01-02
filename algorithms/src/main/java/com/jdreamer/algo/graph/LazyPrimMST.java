@@ -1,4 +1,4 @@
-package com.jdreamer.algo;
+package com.jdreamer.algo.graph;
 
 import edu.princeton.cs.algs4.Edge;
 import edu.princeton.cs.algs4.EdgeWeightedGraph;

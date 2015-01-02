@@ -1,4 +1,4 @@
-package com.jdreamer.algo;
+package com.jdreamer.algo.dp;
 
 /**
  * https://www.cs.duke.edu/courses/fall08/cps230/Lectures/L-04.pdf

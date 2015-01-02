@@ -1,4 +1,4 @@
-package com.jdreamer.algo;
+package com.jdreamer.algo.graph;
 
 import java.util.ArrayList;
 import java.util.List;

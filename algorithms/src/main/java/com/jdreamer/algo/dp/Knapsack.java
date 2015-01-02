@@ -1,4 +1,4 @@
-package com.jdreamer.algo;
+package com.jdreamer.algo.dp;
 
 /**
  * http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/

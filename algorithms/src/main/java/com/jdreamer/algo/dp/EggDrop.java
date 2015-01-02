@@ -1,4 +1,4 @@
-package com.jdreamer.algo;
+package com.jdreamer.algo.dp;
 
 /**
  * http://www.geeksforgeeks.org/dynamic-programming-set-11-egg-dropping-puzzle/
