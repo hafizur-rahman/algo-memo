@@ -4,6 +4,7 @@ import java.util.PriorityQueue;
 
 /**
  * http://www.geeksforgeeks.org/merge-k-sorted-arrays/
+ * http://www.geeksforgeeks.org/print-elements-sorted-order-row-column-wise-sorted-matrix/
  */
 public class MergeKSortedArray {
     static class Node implements Comparable<Node> {
