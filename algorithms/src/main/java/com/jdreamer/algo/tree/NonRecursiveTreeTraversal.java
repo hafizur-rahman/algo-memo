@@ -1,5 +1,6 @@
 package com.jdreamer.algo.tree;
 
+import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.Stack;
 
 /**
@@ -80,6 +81,32 @@ public class NonRecursiveTreeTraversal {
                     if (next.getLeft() != null) {
                         stack.push(next.getLeft());
                     }
+                }
+            }
+        }
+    };
+
+    public static TreeTraversal BFS_ORDER = new TreeTraversal() {
+        @Override
+        public void traverse(Node root) {
+            if (root == null)
+                return;
+
+            Queue<Node> queue = new Queue<Node>();
+            queue.enqueue(root);
+
+            while (!queue.isEmpty()) {
+                Node n = queue.dequeue();
+
+                // Print current node data
+                System.out.print(n.getValue() + " ");
+
+                if (n.getLeft() != null) {
+                    queue.enqueue(n.getLeft());
+                }
+
+                if (n.getRight() != null) {
+                    queue.enqueue(n.getRight());
                 }
             }
         }

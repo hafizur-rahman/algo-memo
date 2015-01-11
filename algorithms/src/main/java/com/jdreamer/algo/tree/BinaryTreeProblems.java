@@ -35,5 +35,9 @@ public class BinaryTreeProblems {
         System.out.print("Post-order (non-recursive): ");
         NonRecursiveTreeTraversal.POST_ORDER.traverse(root);
         System.out.println();
+
+        System.out.print("BFS: ");
+        NonRecursiveTreeTraversal.BFS_ORDER.traverse(root);
+        System.out.println();
     }
 }

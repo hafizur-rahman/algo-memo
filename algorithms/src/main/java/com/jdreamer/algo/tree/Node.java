@@ -41,4 +41,8 @@ public class Node {
     public void setRight(Node right) {
         this.right = right;
     }
+
+    public String toString() {
+        return "Node (" + val + ")";
+    }
 }

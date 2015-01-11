@@ -56,20 +56,4 @@ public class RecursiveTreeTraversal {
         }
     };
 
-    TreeTraversal LEVEL_ORDER = new TreeTraversal() {
-        @Override
-        public void traverse(Node root) {
-            if (root == null)
-                return;
-
-            // Traverse left tree
-            traverse(root.getLeft());
-
-            // Traverse right tree
-            traverse(root.getRight());
-
-            // Print current node data
-            System.out.print(root.getValue() + " ");
-        }
-    };
 }
