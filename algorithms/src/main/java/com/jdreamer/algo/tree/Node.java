@@ -3,27 +3,17 @@ package com.jdreamer.algo.tree;
 /**
  *
  */
-public class Node {
-    private int val;
+public class Node<V extends Comparable<V>> {
+    private V val;
     private Node left;
     private Node right;
 
-    public Node(int val) {
+    public Node(V val) {
         this.val = val;
     }
 
-    public Node(int val, Node left, Node right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-
-    public int getValue() {
+    public V getValue() {
         return val;
-    }
-
-    public void setValue(int val) {
-        this.val = val;
     }
 
     public Node getLeft() {
